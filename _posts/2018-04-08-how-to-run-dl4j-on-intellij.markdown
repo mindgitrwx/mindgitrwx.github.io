@@ -2,7 +2,7 @@
 layout: post
 title:  "deeplearning 4j 라이브러리 자체를 인텔리제이를 이용해서 돌려보기. 1 - 설치 과정 "
 date:   2018-04-08 22:13:07 +0900
-categories: software engineering 
+categories: SoftwareEngineering 
 ---
 
 Deeplearning4J 라는  거대한 프로젝트를 리팩토링해보는 것을 이번 학기의 주제로 잡았다. [dl4j] 로 불리는 이 프로젝트는 텐서플로우와 유사한 딥러닝 프레임워크인데 , 코드의 상태도 좋지 못해 보였고, 그 코드에 딸려 있는 주석의 상태도 좋지 않았다.
