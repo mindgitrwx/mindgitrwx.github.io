@@ -13,7 +13,7 @@ consistent
 
 inductive proof 기법을 이용하여 휴리스틱이 consistent하면 반드시 admissible 하다는 것을 증명하자
 
-영어로 된 단어
+영어로 된 솔루션 사이트
 
 https://rniwa.com/2009-09-06/proof-every-consistent-heuristic-is-also-admissible/
 
