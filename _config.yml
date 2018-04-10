@@ -15,9 +15,9 @@ text_color_theme: default #eg: default | dark | forest | ocean | chocolate | ora
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: Someone's blog
+title: mindgit 
 description: > #this means to ignore newlines until "nav_lists:"
-  Someone's Blog
+    mindgit
 
 nav_lists:
   - titles:
@@ -43,11 +43,12 @@ timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 
 ## Author & social ##
 author:
-  name: Someone
-  # email:  #your Email address e.g. someone@site.com
+  name: jonghyeon-yeo 
+  email: jonghyeon.rw@gmail.com
   # facebook:  #your Facebook username
+  #
   # twitter:  #your Twitter username
-  # github:  #your GitHub username
+  github: mindgitrwx
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
   # douban:  #your Douban username
@@ -59,7 +60,7 @@ toc:
 
 ## Comment system (Disqus) ##
 disqus:
-  # shortname:  #the Disqus shortname for the site
+  shortname: jonghyunyeo
 
 ## Comment system (gitalk) ##
 # please refer to https://github.com/gitalk/gitalk for more info.
@@ -72,7 +73,7 @@ gitalk:
     # - owner
 
 ## Google Analytics ##
-# ga_tracking_id:  #Google analytics id for the site
+ga_tracking_id: UA-117278598-1 
 
 ## Reading quantity (LeanCloud) ##
 leancloud:
