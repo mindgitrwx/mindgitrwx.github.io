@@ -10,13 +10,17 @@ key: page-about
 
 Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
+내 부끄러운 코드들을 기록하는 장소
+개인적으로 피드백이 강하게  들어오는 것만 열심히 하게 되는 경향이 있었는데  
+누가 본다는 느낌으로 강제로 피드백을 하기 위한 장소  
+
 {% highlight javascript %}
-(() => console.log('hello, world!'))();
+(() => console.log('hello! blog'))();
 {% endhighlight %}
 
 ## Skills
 
-- HTML5, CSS3(SASS), JavaScript(ES2017, Node.js), Bash(Zsh)
-- React, React Native, Vue.js
-- gulp, webpack
-- Adobe Photoshop, Sketch
+- 집에 쓰잘때기없는 모니터 더 사기   
+- 누워서 음악듣기
+- 크롬에다 확장프로그램 덕지덕지 붙이기  
+- 밤새기 
