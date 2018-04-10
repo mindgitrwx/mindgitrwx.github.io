@@ -1,10 +1,22 @@
 ---
 layout: page
-title: About
-permalink: /about/
+titles:
+  en: About
+  zh: 关于
+  zh-Hans: 关于
+  zh-Hant: 關於
+key: page-about
 ---
 
-나는 즉각적으로 피드백을 받게되는 것만 뭔가 열심히 하는 경향이 있었고 
-때문에 그냥 흘려보낸것도 많았고, 부끄러운 코드를 만든 일도 많고 행동을 한 적도 많다.
+Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
-그런것들을 놓치지 않고 정리하고자 만든 블로그.
+{% highlight javascript %}
+(() => console.log('hello, world!'))();
+{% endhighlight %}
+
+## Skills
+
+- HTML5, CSS3(SASS), JavaScript(ES2017, Node.js), Bash(Zsh)
+- React, React Native, Vue.js
+- gulp, webpack
+- Adobe Photoshop, Sketch
