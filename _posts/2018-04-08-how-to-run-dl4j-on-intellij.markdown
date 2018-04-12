@@ -3,6 +3,7 @@ layout: post
 title:  "deeplearning 4j 라이브러리 자체를 인텔리제이를 이용해서 돌려보기. 1 - 설치 과정 "
 date:   2018-04-08 22:13:07 +0900
 comments: true
+key: java
 categories: SoftwareEngineering 
 ---
 
