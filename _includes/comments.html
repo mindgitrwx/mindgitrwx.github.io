@@ -6,7 +6,7 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTAN: http://dsqs.com/admin/univrslcode/#configuration-variables*/
 	
 	var disqus_config = function () {
-	this.page.url = "https://mindgitrwx.github.io"  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.url = '<?php echo get_permalink(); ?>'  // Replace PAGE_URL with your page's canonical URL variable
 	this.page.identifier = "{{page.key}}" // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 	
