@@ -2,6 +2,7 @@
 layout: post
 title:  "휴리스틱이 consistent하면 반드시 admissible함을 증명하기"
 date:   2018-04-09 04:02:07 +0900
+key: AI
 categories: AI 
 ---
 
