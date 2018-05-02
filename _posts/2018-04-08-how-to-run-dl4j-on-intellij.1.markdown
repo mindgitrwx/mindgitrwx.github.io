@@ -8,9 +8,10 @@ categories: SoftwareEngineering
 
 다음 사진의 순서를 따라간다
 
-이 순서를 따라가는 이유는 나중에 더 자세하게 추가할 예정
-
 처음 썼던 포스트와 가장 큰 차이점은 pom.xml 에서 activebydefalt 를 트루로 바꾸는 내용이다.
+
+처음 인텔리제이를 켤 때 부터 다음과 같이 진행한다. 만약 이미 프로젝트가 켜져 있었다면, File - close project를 누른 다음, 다음 사진들의 과정을 그대로 따라간다. 
+
 ![Itellij]({{"/assets/img100.png"}})
 
 ![Itellij]({{"/assets/img106.png"}})
@@ -18,6 +19,8 @@ categories: SoftwareEngineering
 ![Itellij]({{"/assets/img107.png"}})
 
 ![Itellij]({{"/assets/img108.png"}})
+
+다음과 같이 하나하나 체크한다. 
 
 ![Itellij]({{"/assets/img109.png"}})
 
@@ -31,23 +34,28 @@ categories: SoftwareEngineering
 
 여기서 다음 주소에서 jar 라이브러리 파일을 다운받아 준다.
 
-https://jar-download.com/?detail_search=a%3A%22deeplearning4j-core%22&a=deeplearning4j-core
-에 들어가서, Downlaod deeplearning4j-core.jar를 받는다. 압축은 처음에 클론시켰던 dl4j의 폴더에 풀어주는 것이 좋다
-
 
 ![Itellij]({{"/assets/img016.png"}})
 
 ![Itellij]({{"/assets/img114.png"}})
 
+https://jar-download.com/?detail_search=a%3A%22deeplearning4j-core%22&a=deeplearning4j-core
+에 들어가서, Downlaod deeplearning4j-core.jar를 받는다. 압축은 처음에 클론시켰던 dl4j의 폴더에 풀어주는 것이 좋다
+
+deeplearning4j의 의존성 jar 파일들을 프로젝트 폴더에 추가하고 나서는 다음 사진의 과정을 통해 그 jar폴더를  통째로 jar를 class path에 추가한다.  
+
 ![Itellij]({{"/assets/img115.png"}})
 
 ![Itellij]({{"/assets/img116.png"}})
+
 
 ![Itellij]({{"/assets/img117.png"}})
 
 ![Itellij]({{"/assets/img118.png"}})
 
 ![Itellij]({{"/assets/img119.png"}})
+
+마지막 사진에서 xml 파일에서 id 가 test-nd4j-native 인 곳에서 activeByDefault의 값을 true로 바꿔줘야 한다.
 
 ![Itellij]({{"/assets/img120.png"}})
 
