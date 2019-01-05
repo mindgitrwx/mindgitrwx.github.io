@@ -31,6 +31,15 @@
         </div>
       </li>
     {%- endif -%}
+    {%- if site.author.reddit -%}
+      <li title="{{ __return | replace: '[NAME]', 'Reddit' }}">
+        <div class="floating-action-round-button reddit">
+            <a itemprop="sameAs" href="https://www.reddit.com/user/{{ site.author.reddit}}" target="_blank">
+            <div class="icon">{%- include icon/social/reddit.svg -%}</div>
+          </a>
+        </div>
+      </li>
+    {%- endif -%}
     {%- if site.author.googleplus -%}
       <li title="{{ __return | replace: '[NAME]', 'Google+' }}">
         <div class="floating-action-round-button googlepluse">
