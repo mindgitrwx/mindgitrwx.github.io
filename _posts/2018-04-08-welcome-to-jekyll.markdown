@@ -12,7 +12,7 @@ java markup test
 
     public boolean isSatisfied(IterationHistory iterationHistory) {
         if (iterationHistory.getIterationCount() <= period)
-            return false;
+        return false;
 
         for (int i = 0, j = iterationHistory.getIterationCount(); i < period; i++) {
             double variation = iterationHistory.getIterationInfo(j - i).getClusterSetInfo()
