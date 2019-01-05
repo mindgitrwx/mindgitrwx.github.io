@@ -17,6 +17,9 @@
       .twitter {
         @include link-colors($text-color-1, $twitter-color);
       }
+      .reddit {
+        @include link-colors($text-color-1, $reddit-color);
+      }
       .googlepluse {
         @include link-colors($text-color-1, $google-plus-color);
       }
