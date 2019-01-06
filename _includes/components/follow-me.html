@@ -31,15 +31,49 @@
         </div>
       </li>
     {%- endif -%}
+
     {%- if site.author.reddit -%}
       <li title="{{ __return | replace: '[NAME]', 'Reddit' }}">
         <div class="floating-action-round-button reddit">
-            <a itemprop="sameAs" href="https://www.reddit.com/user/{{ site.author.reddit}}" target="_blank">
+          <a itemprop="sameAs" href="https://www.reddit.com/user/{{ site.author.reddit}}" target="_blank">
             <div class="icon">{%- include icon/social/reddit.svg -%}</div>
           </a>
         </div>
       </li>
     {%- endif -%}
+
+    <!-- address is hardcoded -->
+    {%- if site.author.youtube -%}
+      <li title="{{ __return | replace: '[NAME]', 'Youtube' }}">
+        <div class="floating-action-round-button youtube">
+            <a itemprop="sameAs" href="https://www.youtube.com/channel/{{ site.author.youtube}}" target="_blank">
+            <div class="icon">{%- include icon/social/youtube.svg -%}</div>
+          </a>
+        </div>
+      </li>
+    {%- endif -%}
+
+    <!-- address is hardcoded -->
+    {%- if site.author.stackoverflow -%}
+      <li title="{{ __return | replace: '[NAME]', 'Stackoverflow' }}">
+        <div class="floating-action-round-button stackoverflow">
+            <a itemprop="sameAs" href="https://stackoverflow.com/users/5945712/{{ site.author.stackoverflow}}" target="_blank">
+            <div class="icon">{%- include icon/social/stackoverflow.svg -%}</div>
+          </a>
+        </div>
+      </li>
+    {%- endif -%}
+
+    {%- if site.author.soundcloud -%}
+      <li title="{{ __return | replace: '[NAME]', 'Soundcloud' }}">
+        <div class="floating-action-round-button soundcloud">
+          <a itemprop="sameAs" href="https://www.soundcloud.com/{{ site.author.soundcloud}}" target="_blank">
+            <div class="icon">{%- include icon/social/soundcloud.svg -%}</div>
+          </a>
+        </div>
+      </li>
+    {%- endif -%}
+
     {%- if site.author.googleplus -%}
       <li title="{{ __return | replace: '[NAME]', 'Google+' }}">
         <div class="floating-action-round-button googlepluse">

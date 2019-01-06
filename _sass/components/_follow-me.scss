@@ -20,6 +20,15 @@
       .reddit {
         @include link-colors($text-color-1, $reddit-color);
       }
+      .youtube {
+          @include link-colors($text-color-1, $youtube-color);
+      }
+      .stackoverflow {
+          @include link-colors($text-color-1, $stackoverflow-color);
+      }
+      .soundcloud {
+          @include link-colors($text-color-1, $soundcloud-color);
+      }
       .googlepluse {
         @include link-colors($text-color-1, $google-plus-color);
       }
