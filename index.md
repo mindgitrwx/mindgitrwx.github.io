@@ -5,4 +5,6 @@
 layout: home
 ---
 
-hi what is here
+[Red pages](red)
+<br>
+[Blue pages](blue)
