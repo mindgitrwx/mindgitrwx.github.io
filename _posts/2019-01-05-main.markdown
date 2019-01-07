@@ -1,5 +1,5 @@
 ---
-layout: home 
+layout: default 
 titles:
   en: blog home test
   zh: 关于
