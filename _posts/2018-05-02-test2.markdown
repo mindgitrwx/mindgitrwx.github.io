@@ -1,5 +1,5 @@
 ---
-layout: home 
+layout: Home 
 titles:
   en: blog home test
   zh: 关于
@@ -10,6 +10,11 @@ categories: layouttest
 ---
 
 every posts on Archive 
+every posts on Archive 
+every posts on Archive 
+every posts on Archive 
+every posts on Archive 
+
 
 ## Skills
 

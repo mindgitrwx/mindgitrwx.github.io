@@ -127,3 +127,4 @@ In addition to Jekyll's front matters, the theme adds some unique front matters.
 
 - [Demo](https://tianqi.name/jekyll-TeXt-theme/)
 - [Qi's blog](https://tianqi.name/blog/)
+
