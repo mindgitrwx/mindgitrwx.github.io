@@ -4,22 +4,24 @@
 <div id="js-gitalk-container"></div>
 {%- assign admin = '' -%}
 {%- for adminId in site.gitalk.admin -%}
-	{%- assign admin = admin | append: ", '" | append: adminId | append: "'" -%}
+{%- assign admin = admin | append: ", '" | append: adminId | append: "'" -%}
 {%- endfor -%}
 {%- assign last = admin | size | minus: 1 -%}
 {%- assign admin = admin | slice: 2, last -%}
+
 <script>
-	window.Lazyload.css('{{ _sources.gitalk.css }}');
-	window.Lazyload.js('{{ _sources.gitalk.js }}', function() {
-		var gitalk = new Gitalk({
-			clientID: '{{ site.gitalk.clientID }}',
-			clientSecret: '{{ site.gitalk.clientSecret }}',
-			repo: '{{ site.gitalk.repository }}',
-			owner: '{{ site.gitalk.owner }}',
-			admin: [{{ admin }}],
-			id: '{{ page.key }}'
-		});
-		gitalk.render('js-gitalk-container');
-	});
+ window.Lazyload.css('{{ _sources.gitalk.css }}');
+ window.Lazyload.js('{{ _sources.gitalk.js }}', function() {
+     var gitalk = new Gitalk({
+         clientID: '{{ site.gitalk.clientID }}',
+         clientSecret: '{{ site.gitalk.clientSecret }}',
+         repo: '{{ site.gitalk.repository }}',
+         owner: '{{ site.gitalk.owner }}',
+         admin: [{{ admin }}],
+         id: '{{ page.key }}'
+     });
+     gitalk.render('js-gitalk-container');
+ });
 </script>
+
 {%- endif -%}

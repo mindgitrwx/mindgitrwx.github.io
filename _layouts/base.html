@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 {%- include snippets/get-lang.html -%}
 <html lang="{{ __return }}">
+
   <head>
     {%- include common-head.html -%}
     {%- include head-icons-rel.html -%}
@@ -11,18 +12,24 @@
       {%- include scripts/utils.js -%}
     </script>
   </head>
+
   <body>
+
     <div class="m-page-stage js-page-stage">
       <div class="m-page-content">
         {%- include components/header.html -%}
         <div class="m-page-main">{{ content }}</div>
       </div>
     </div>
+
     {%- include components/footer.html -%}
     <script>
       {%- include scripts/common.js -%}
     </script>
     {%- include scripts/variables.html -%}
+
+
+    <!-- include page layout -->
     {%- if page.layout == "home" -%}
       <script>
         {%- include scripts/components/pageview.js -%}
@@ -45,11 +52,14 @@
         {%- include scripts/all.js -%}
       </script>
     {%- endif -%}
+
+    <!-- external librarys -->
     <script>
       {%- include scripts/components/mathjax.js -%}
       {%- include scripts/components/mermaid.js -%}
       {%- include scripts/components/chart.js -%}
       {%- include scripts/components/google-analytics.js -%}
     </script>
+
   </body>
 </html>

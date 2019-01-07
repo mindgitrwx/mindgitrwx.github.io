@@ -27,7 +27,7 @@ nav_lists:
       zh-Hant: 關於
     url: /about.html
 
-paths:
+    paths:
    base: /
    home: /
    all:  /all.html
